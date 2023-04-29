@@ -2,11 +2,11 @@
 
 
 ## The hot take
-
+Duncan Robinson wins games for MIA.
 
 
 ## The big question
-
+Is
 
 
 ## Methods
