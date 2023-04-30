@@ -6,7 +6,7 @@ Duncan Robinson wins games for MIA.
 
 
 ## The big question
-Is
+Is there a relationship between whether Duncan Robinson plays and whether Miami wins or loses games?
 
 
 ## Methods
@@ -16,5 +16,8 @@ Is
 ## Results
 
 
+// table here
+
 
 ## Conclusion
+There is *no evidence* to suggest that Duncan Robinson playing is related to the Heat winning or losing games.
