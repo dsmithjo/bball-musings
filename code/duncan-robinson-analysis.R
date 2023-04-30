@@ -8,7 +8,7 @@
 
 # LOAD packages --------------------
 
-xfun::pkg_attach("tidyverse", "janitor", "data.table", "arsenal", message = FALSE)
+xfun::pkg_attach("tidyverse", "janitor", "data.table", message = FALSE)
 
 
 # IMPORT and TIDY data --------------------
