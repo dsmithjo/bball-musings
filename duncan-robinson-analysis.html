@@ -431,9 +431,9 @@ whether Miami wins or loses games?</p>
 <h3>Methods</h3>
 <p>To determine if an association exists, I performed a chi-square test
 on data from Duncan Robinson’s game logs (that indicate if he played or
-not) and the outcomes of all Heat contests over Robinson’s career, up to
-April 29, 2023. I use data from Basketball-Reference.com, and wrangle
-and analyze it in R.</p>
+not) and the outcomes of all Heat contests over Robinson’s career to
+date—from 10/17/2018-04/29/23. I use data from Basketball-Reference.com,
+and wrangle and analyze it in R.</p>
 <p><br></p>
 <details>
 <summary>
@@ -458,20 +458,20 @@ and analyze it in R.</p>
 <div id="table-1.-cross-tabulation-of-duncan-robinsons-status-and-the-heats-wins-and-losses" class="section level4">
 <h4>Table 1. Cross-tabulation of Duncan Robinson’s status and the Heat’s
 wins and losses</h4>
-<div id="lgqtaggbgx" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#lgqtaggbgx table {
+<div id="unaygjocsk" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#unaygjocsk table {
 font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
-#lgqtaggbgx thead, #lgqtaggbgx tbody, #lgqtaggbgx tfoot, #lgqtaggbgx tr, #lgqtaggbgx td, #lgqtaggbgx th {
+#unaygjocsk thead, #unaygjocsk tbody, #unaygjocsk tfoot, #unaygjocsk tr, #unaygjocsk td, #unaygjocsk th {
 border-style: none;
 }
-#lgqtaggbgx p {
+#unaygjocsk p {
 margin: 0;
 padding: 0;
 }
-#lgqtaggbgx .gt_table {
+#unaygjocsk .gt_table {
 display: table;
 border-collapse: collapse;
 line-height: normal;
@@ -496,11 +496,11 @@ border-left-style: none;
 border-left-width: 2px;
 border-left-color: #D3D3D3;
 }
-#lgqtaggbgx .gt_caption {
+#unaygjocsk .gt_caption {
 padding-top: 4px;
 padding-bottom: 4px;
 }
-#lgqtaggbgx .gt_title {
+#unaygjocsk .gt_title {
 color: #333333;
 font-size: 125%;
 font-weight: initial;
@@ -511,7 +511,7 @@ padding-right: 5px;
 border-bottom-color: #FFFFFF;
 border-bottom-width: 0;
 }
-#lgqtaggbgx .gt_subtitle {
+#unaygjocsk .gt_subtitle {
 color: #333333;
 font-size: 85%;
 font-weight: initial;
@@ -522,7 +522,7 @@ padding-right: 5px;
 border-top-color: #FFFFFF;
 border-top-width: 0;
 }
-#lgqtaggbgx .gt_heading {
+#unaygjocsk .gt_heading {
 background-color: #FFFFFF;
 text-align: center;
 border-bottom-color: #FFFFFF;
@@ -533,12 +533,12 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#lgqtaggbgx .gt_bottom_border {
+#unaygjocsk .gt_bottom_border {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#lgqtaggbgx .gt_col_headings {
+#unaygjocsk .gt_col_headings {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -552,7 +552,7 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#lgqtaggbgx .gt_col_heading {
+#unaygjocsk .gt_col_heading {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -571,7 +571,7 @@ padding-left: 5px;
 padding-right: 5px;
 overflow-x: hidden;
 }
-#lgqtaggbgx .gt_column_spanner_outer {
+#unaygjocsk .gt_column_spanner_outer {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -582,13 +582,13 @@ padding-bottom: 0;
 padding-left: 4px;
 padding-right: 4px;
 }
-#lgqtaggbgx .gt_column_spanner_outer:first-child {
+#unaygjocsk .gt_column_spanner_outer:first-child {
 padding-left: 0;
 }
-#lgqtaggbgx .gt_column_spanner_outer:last-child {
+#unaygjocsk .gt_column_spanner_outer:last-child {
 padding-right: 0;
 }
-#lgqtaggbgx .gt_column_spanner {
+#unaygjocsk .gt_column_spanner {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
@@ -599,10 +599,10 @@ overflow-x: hidden;
 display: inline-block;
 width: 100%;
 }
-#lgqtaggbgx .gt_spanner_row {
+#unaygjocsk .gt_spanner_row {
 border-bottom-style: hidden;
 }
-#lgqtaggbgx .gt_group_heading {
+#unaygjocsk .gt_group_heading {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -627,7 +627,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 text-align: left;
 }
-#lgqtaggbgx .gt_empty_group_heading {
+#unaygjocsk .gt_empty_group_heading {
 padding: 0.5px;
 color: #333333;
 background-color: #FFFFFF;
@@ -641,13 +641,13 @@ border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 vertical-align: middle;
 }
-#lgqtaggbgx .gt_from_md > :first-child {
+#unaygjocsk .gt_from_md > :first-child {
 margin-top: 0;
 }
-#lgqtaggbgx .gt_from_md > :last-child {
+#unaygjocsk .gt_from_md > :last-child {
 margin-bottom: 0;
 }
-#lgqtaggbgx .gt_row {
+#unaygjocsk .gt_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -665,7 +665,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 overflow-x: hidden;
 }
-#lgqtaggbgx .gt_stub {
+#unaygjocsk .gt_stub {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -677,7 +677,7 @@ border-right-color: #D3D3D3;
 padding-left: 5px;
 padding-right: 5px;
 }
-#lgqtaggbgx .gt_stub_row_group {
+#unaygjocsk .gt_stub_row_group {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -690,13 +690,13 @@ padding-left: 5px;
 padding-right: 5px;
 vertical-align: top;
 }
-#lgqtaggbgx .gt_row_group_first td {
+#unaygjocsk .gt_row_group_first td {
 border-top-width: 2px;
 }
-#lgqtaggbgx .gt_row_group_first th {
+#unaygjocsk .gt_row_group_first th {
 border-top-width: 2px;
 }
-#lgqtaggbgx .gt_summary_row {
+#unaygjocsk .gt_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -705,14 +705,14 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#lgqtaggbgx .gt_first_summary_row {
+#unaygjocsk .gt_first_summary_row {
 border-top-style: solid;
 border-top-color: #D3D3D3;
 }
-#lgqtaggbgx .gt_first_summary_row.thick {
+#unaygjocsk .gt_first_summary_row.thick {
 border-top-width: 2px;
 }
-#lgqtaggbgx .gt_last_summary_row {
+#unaygjocsk .gt_last_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -721,7 +721,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#lgqtaggbgx .gt_grand_summary_row {
+#unaygjocsk .gt_grand_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -730,7 +730,7 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#lgqtaggbgx .gt_first_grand_summary_row {
+#unaygjocsk .gt_first_grand_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -739,7 +739,7 @@ border-top-style: double;
 border-top-width: 6px;
 border-top-color: #D3D3D3;
 }
-#lgqtaggbgx .gt_last_grand_summary_row_top {
+#unaygjocsk .gt_last_grand_summary_row_top {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -748,10 +748,10 @@ border-bottom-style: double;
 border-bottom-width: 6px;
 border-bottom-color: #D3D3D3;
 }
-#lgqtaggbgx .gt_striped {
+#unaygjocsk .gt_striped {
 background-color: rgba(128, 128, 128, 0.05);
 }
-#lgqtaggbgx .gt_table_body {
+#unaygjocsk .gt_table_body {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -759,7 +759,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#lgqtaggbgx .gt_footnotes {
+#unaygjocsk .gt_footnotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -772,7 +772,7 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#lgqtaggbgx .gt_footnote {
+#unaygjocsk .gt_footnote {
 margin: 0px;
 font-size: 90%;
 padding-top: 4px;
@@ -780,7 +780,7 @@ padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#lgqtaggbgx .gt_sourcenotes {
+#unaygjocsk .gt_sourcenotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -793,57 +793,57 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#lgqtaggbgx .gt_sourcenote {
+#unaygjocsk .gt_sourcenote {
 font-size: 90%;
 padding-top: 4px;
 padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#lgqtaggbgx .gt_left {
+#unaygjocsk .gt_left {
 text-align: left;
 }
-#lgqtaggbgx .gt_center {
+#unaygjocsk .gt_center {
 text-align: center;
 }
-#lgqtaggbgx .gt_right {
+#unaygjocsk .gt_right {
 text-align: right;
 font-variant-numeric: tabular-nums;
 }
-#lgqtaggbgx .gt_font_normal {
+#unaygjocsk .gt_font_normal {
 font-weight: normal;
 }
-#lgqtaggbgx .gt_font_bold {
+#unaygjocsk .gt_font_bold {
 font-weight: bold;
 }
-#lgqtaggbgx .gt_font_italic {
+#unaygjocsk .gt_font_italic {
 font-style: italic;
 }
-#lgqtaggbgx .gt_super {
+#unaygjocsk .gt_super {
 font-size: 65%;
 }
-#lgqtaggbgx .gt_footnote_marks {
+#unaygjocsk .gt_footnote_marks {
 font-size: 75%;
 vertical-align: 0.4em;
 position: initial;
 }
-#lgqtaggbgx .gt_asterisk {
+#unaygjocsk .gt_asterisk {
 font-size: 100%;
 vertical-align: 0;
 }
-#lgqtaggbgx .gt_indent_1 {
+#unaygjocsk .gt_indent_1 {
 text-indent: 5px;
 }
-#lgqtaggbgx .gt_indent_2 {
+#unaygjocsk .gt_indent_2 {
 text-indent: 10px;
 }
-#lgqtaggbgx .gt_indent_3 {
+#unaygjocsk .gt_indent_3 {
 text-indent: 15px;
 }
-#lgqtaggbgx .gt_indent_4 {
+#unaygjocsk .gt_indent_4 {
 text-indent: 20px;
 }
-#lgqtaggbgx .gt_indent_5 {
+#unaygjocsk .gt_indent_5 {
 text-indent: 25px;
 }
 </style>
@@ -879,14 +879,14 @@ text-indent: 25px;
 </div>
 <div id="table-2.-chi-square-test-results" class="section level4">
 <h4>Table 2. Chi-square test results</h4>
-<div class="tabwid"><style>.cl-36fbe6ee{}.cl-36f145c2{font-family:'Helvetica';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-36f4ae56{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-36f4ae6a{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-36f4c42c{width:0.795in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-36f4c42d{width:0.88in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-36f4c436{width:0.981in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-36f4c437{width:2.123in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-36f4c440{width:0.795in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-36f4c44a{width:0.88in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-36f4c44b{width:0.981in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-36f4c44c{width:2.123in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-36f4c454{width:0.795in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(255, 255, 255, 0.00);border-top: 0 solid rgba(255, 255, 255, 0.00);border-left: 0 solid rgba(255, 255, 255, 0.00);border-right: 0 solid rgba(255, 255, 255, 0.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-36f4c455{width:0.88in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(255, 255, 255, 0.00);border-top: 0 solid rgba(255, 255, 255, 0.00);border-left: 0 solid rgba(255, 255, 255, 0.00);border-right: 0 solid rgba(255, 255, 255, 0.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-36f4c45e{width:0.981in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(255, 255, 255, 0.00);border-top: 0 solid rgba(255, 255, 255, 0.00);border-left: 0 solid rgba(255, 255, 255, 0.00);border-right: 0 solid rgba(255, 255, 255, 0.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-36f4c45f{width:2.123in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(255, 255, 255, 0.00);border-top: 0 solid rgba(255, 255, 255, 0.00);border-left: 0 solid rgba(255, 255, 255, 0.00);border-right: 0 solid rgba(255, 255, 255, 0.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-36fbe6ee"><thead><tr style="overflow-wrap:break-word;"><th class="cl-36f4c42c"><p class="cl-36f4ae56"><span class="cl-36f145c2">statistic</span></p></th><th class="cl-36f4c42d"><p class="cl-36f4ae56"><span class="cl-36f145c2">p.value</span></p></th><th class="cl-36f4c436"><p class="cl-36f4ae56"><span class="cl-36f145c2">parameter</span></p></th><th class="cl-36f4c437"><p class="cl-36f4ae6a"><span class="cl-36f145c2">method</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-36f4c440"><p class="cl-36f4ae56"><span class="cl-36f145c2">1.3</span></p></td><td class="cl-36f4c44a"><p class="cl-36f4ae56"><span class="cl-36f145c2">0.2521</span><span class="cl-36f145c2">   </span></p></td><td class="cl-36f4c44b"><p class="cl-36f4ae56"><span class="cl-36f145c2">1</span></p></td><td class="cl-36f4c44c"><p class="cl-36f4ae6a"><span class="cl-36f145c2">Pearson&#39;s Chi-squared test</span></p></td></tr></tbody><tfoot><tr style="overflow-wrap:break-word;"><td colspan="4" class="cl-36f4c454"><p class="cl-36f4ae6a"><span class="cl-36f145c2">Signif. codes: 0 &lt;= &#39;***&#39; &lt; 0.001 &lt; &#39;**&#39; &lt; 0.01 &lt; &#39;*&#39; &lt; 0.05</span></p></td></tr></tfoot></table></div>
+<div class="tabwid"><style>.cl-a88da25a{}.cl-a8831de4{font-family:'Helvetica';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-a88676f6{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-a8867700{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-a8868c04{width:0.795in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a8868c0e{width:0.88in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a8868c0f{width:0.981in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a8868c18{width:2.123in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a8868c19{width:0.795in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a8868c22{width:0.88in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a8868c23{width:0.981in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a8868c24{width:2.123in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a8868c2c{width:0.795in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(255, 255, 255, 0.00);border-top: 0 solid rgba(255, 255, 255, 0.00);border-left: 0 solid rgba(255, 255, 255, 0.00);border-right: 0 solid rgba(255, 255, 255, 0.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a8868c2d{width:0.88in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(255, 255, 255, 0.00);border-top: 0 solid rgba(255, 255, 255, 0.00);border-left: 0 solid rgba(255, 255, 255, 0.00);border-right: 0 solid rgba(255, 255, 255, 0.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a8868c36{width:0.981in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(255, 255, 255, 0.00);border-top: 0 solid rgba(255, 255, 255, 0.00);border-left: 0 solid rgba(255, 255, 255, 0.00);border-right: 0 solid rgba(255, 255, 255, 0.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a8868c37{width:2.123in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(255, 255, 255, 0.00);border-top: 0 solid rgba(255, 255, 255, 0.00);border-left: 0 solid rgba(255, 255, 255, 0.00);border-right: 0 solid rgba(255, 255, 255, 0.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-a88da25a"><thead><tr style="overflow-wrap:break-word;"><th class="cl-a8868c04"><p class="cl-a88676f6"><span class="cl-a8831de4">statistic</span></p></th><th class="cl-a8868c0e"><p class="cl-a88676f6"><span class="cl-a8831de4">p.value</span></p></th><th class="cl-a8868c0f"><p class="cl-a88676f6"><span class="cl-a8831de4">parameter</span></p></th><th class="cl-a8868c18"><p class="cl-a8867700"><span class="cl-a8831de4">method</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-a8868c19"><p class="cl-a88676f6"><span class="cl-a8831de4">1.3</span></p></td><td class="cl-a8868c22"><p class="cl-a88676f6"><span class="cl-a8831de4">0.2521</span><span class="cl-a8831de4">   </span></p></td><td class="cl-a8868c23"><p class="cl-a88676f6"><span class="cl-a8831de4">1</span></p></td><td class="cl-a8868c24"><p class="cl-a8867700"><span class="cl-a8831de4">Pearson&#39;s Chi-squared test</span></p></td></tr></tbody><tfoot><tr style="overflow-wrap:break-word;"><td colspan="4" class="cl-a8868c2c"><p class="cl-a8867700"><span class="cl-a8831de4">Signif. codes: 0 &lt;= &#39;***&#39; &lt; 0.001 &lt; &#39;**&#39; &lt; 0.01 &lt; &#39;*&#39; &lt; 0.05</span></p></td></tr></tfoot></table></div>
 <p><br></p>
 </div>
 </div>
 <div id="conclusion" class="section level3">
 <h3>Conclusion</h3>
 <p>There is <strong><em>no evidence</em></strong> to suggest that Duncan
-Robinson playing is related to the Heat winning or losing games.</p>
+Robinson playing is related to the Heat’s record.</p>
 <p><br></p>
 </div>
 </div>
